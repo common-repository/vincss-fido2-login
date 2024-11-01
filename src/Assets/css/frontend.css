@@ -1,0 +1,286 @@
+.vincss-secure-list-table {
+  table-layout: fixed;
+  border: 1px solid rgba(204, 208, 212, 0.7);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+  border-spacing: 0;
+  width: 100%;
+  clear: both;
+  margin: 0 !important;
+  min-width: 700px;
+}
+.vincss-secure-list-table * {
+  word-wrap: break-word;
+}
+.vincss-secure-list-table td,
+.vincss-secure-list-table th {
+  padding: 8px 10px;
+}
+.vincss-secure-list-table tfoot td,
+.vincss-secure-list-table tfoot th,
+.vincss-secure-list-table thead td,
+.vincss-secure-list-table thead th {
+  line-height: 1.4em;
+}
+.vincss-secure-list-table thead td,
+.vincss-secure-list-table thead th {
+  border-bottom: 1px solid rgba(204, 208, 212, 0.7);
+}
+.vincss-secure-list-table tfoot td,
+.vincss-secure-list-table tfoot th {
+  border-top: 1px solid rgba(204, 208, 212, 0.7);
+  border-bottom: none;
+}
+.vincss-secure-list-table tfoot td,
+.vincss-secure-list-table th,
+.vincss-secure-list-table thead td {
+  font-weight: 400;
+}
+.vincss-secure-list-table tfoot td,
+.vincss-secure-list-table th,
+.vincss-secure-list-table thead td {
+  text-align: left;
+  line-height: 1.3em;
+  font-size: 14px;
+}
+.vincss-secure-list-table > tbody > :nth-child(odd) {
+  background-color: rgba(127, 127, 127, 0.15);
+}
+.vincss-secure-list-table td {
+  font-size: 13px;
+  line-height: 1.5em;
+}
+.vincss-secure-list-table td {
+  vertical-align: top;
+}
+.v-pwl-btn-start-reg-name-description,
+.v-pwl-btn-start-reg-name-description,
+.v-pwl-btn-start-reg-usernameless-description,
+.v-pwl-list-usernameless-tip,
+.v-pwl-list-type-tip {
+  opacity: 0.7;
+  font-size: 14px;
+}
+.vincss-secure-authenticator-type,
+.vincss-secure-authenticator-name {
+  margin-left: 15px;
+}
+.vincss-fido2-login-form {
+  max-width: 350px;
+  margin: 0 auto;
+  padding: 20px;
+  padding-bottom: 40px;
+}
+.vincss-fido2-login-form form p,
+.vincss-fido2-login-form-passwordless p {
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+.vincss-fido2-login-form * {
+  margin: 0;
+  padding: 0;
+}
+.vincss-fido2-login-form label {
+  font-size: 14px;
+  line-height: 1.5;
+  display: inline-block;
+  margin-bottom: 3px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.vincss-fido2-login-form form .input,
+.vincss-fido2-login-form input[type="password"],
+.vincss-fido2-login-form input[type="text"] {
+  font-size: 24px;
+  line-height: 1.33333333;
+  width: 100%;
+  border-width: 0.0625rem;
+  padding: 0.1875rem 0.3125rem;
+  margin: 0 6px 16px 0;
+  min-height: 40px;
+  max-height: none;
+}
+.vincss-fido2-login-form input[type="password"],
+.vincss-fido2-login-form input[type="text"] {
+  padding: 0 8px;
+  line-height: 2;
+  height: 30px;
+  box-sizing: border-box;
+}
+.vincss-fido2-login-form input[type="password"],
+.vincss-fido2-login-form input[type="text"],
+.vincss-fido2-login-form select,
+.vincss-fido2-login-form textarea {
+  box-shadow: 0 0 0 transparent;
+  border-radius: 4px;
+  border: 1px solid rgba(126, 137, 147, 0.7);
+  color: #32373c;
+}
+.vincss-fido2-login-form form .login-remember {
+  font-weight: 400;
+  float: left;
+  display: block;
+  margin-bottom: 0;
+}
+.vincss-fido2-login-form input[type="checkbox"] {
+  border: 1px solid #7e8993;
+  border-radius: 4px;
+  background: #fff;
+  color: #555;
+  clear: none;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 0;
+  height: 1rem;
+  margin: -0.25rem 0.25rem 0 0;
+  outline: 0;
+  padding: 0 !important;
+  text-align: center;
+  vertical-align: middle;
+  width: 1rem;
+  min-width: 1rem;
+  -webkit-appearance: none;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  transition: 0.05s border-color ease-in-out;
+}
+.vincss-fido2-login-form input[type="checkbox"]:checked::before {
+  content: url(data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%2020%2020%27%3E%3Cpath%20d%3D%27M14.83%204.89l1.34.94-5.81%208.38H9.02L5.78%209.67l1.34-1.25%202.57%202.4z%27%20fill%3D%27%231e8cbe%27%2F%3E%3C%2Fsvg%3E);
+  margin: -0.1875rem 0 0 -0.25rem;
+  height: 1.3125rem;
+  width: 1.3125rem;
+  float: left;
+}
+.vincss-fido2-login-form .button-primary {
+  border-width: 0;
+  border-style: none;
+  padding: 0;
+  min-height: 32px;
+  line-height: 2.30769231;
+  padding: 0 12px;
+  vertical-align: baseline;
+  float: right;
+  background: #007cba;
+  border-color: #007cba;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: none;
+}
+.vincss-fido2-login-form .button-primary,
+.vincss-fido2-login-form .button-secondary {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 2.15384615;
+  height: 30px;
+  margin: 0;
+  padding: 0 10px;
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+  -webkit-appearance: none;
+  border-radius: 3px;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+.vincss-fido2-login-form .button-primary:focus,
+.vincss-fido2-login-form .button-primary:hover {
+  background: #0071a1;
+  border-color: #0071a1;
+  color: #fff;
+  outline: 2px solid transparent;
+  outline-offset: 0;
+}
+.vincss-fido2-login-form .button-primary:focus {
+  box-shadow: 0 0 0 1px #fff, 0 0 0 3px #007cba;
+}
+.vincss-fido2-login-form .button-primary:active {
+  background: #00669b;
+  border-color: #00669b;
+  box-shadow: none;
+  color: #fff;
+}
+.vincss-fido2-login-form .button-primary:disabled,
+.vincss-fido2-login-form .button-primary[disabled] {
+  color: #66c6e4 !important;
+  background: #008ec2 !important;
+  border-color: #008ec2 !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  cursor: default;
+}
+.vincss-secure-show-test .success,
+.vincss-secure-show-test-usernameless .success,
+.v-pwl-show-progress .success,
+.vincss-fido2-login-form .vincss-secure-success {
+  color: #2c8d46;
+}
+.vincss-secure-show-test .failed,
+.vincss-secure-show-test-usernameless .failed,
+.v-pwl-show-progress .failed,
+.vincss-fido2-login-form .vincss-secure-failed {
+  color: #ca4a1f;
+}
+.vincss-secure-hide-form {
+  display: none;
+}
+.vincss-fido2-login-form-passwordless .pwl-title {
+  text-align: center;
+  color: #72777c;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+.pwl-title {
+  pointer-events: none;
+}
+.vincss-fido2-login-form-passwordless {
+  margin-bottom: 30px;
+}
+.vincss-secure-t2w {
+  font-size: 14px;
+  transform: translateY(-7px);
+  color: #00719f;
+  text-decoration: underline;
+}
+.vincss-secure-t2w > span {
+  cursor: pointer;
+}
+.vincss-secure-w2t {
+  font-size: 14px;
+  float: left;
+  color: #00719f;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.v-pwl-try-username {
+  transform: translateY(-20px);
+  display: inline-block;
+  font-size: 14px;
+  opacity: 0.7;
+  color: black;
+  pointer-events: none;
+}
+.vincss-secure-table-container {
+  width: 100%;
+  overflow-y: auto;
+}
+.username-less-th,
+.username-less-td {
+  display: none;
+}
+#vincss-secure-rememberme {
+  vertical-align: text-bottom;
+}
+.vincss-secure-remember-label {
+  margin-bottom: 17px !important;
+  margin-top: 2px !important;
+}
+@media (max-width: 720px) {
+  .vincss-fido2-login-form .button-primary,
+  .vincss-fido2-login-form .button-secondary {
+    padding: 0 14px;
+    line-height: 2.71428571;
+    font-size: 14px;
+    vertical-align: middle;
+    min-height: 40px;
+    margin-bottom: 4px;
+  }
+}

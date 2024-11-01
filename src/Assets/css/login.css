@@ -1,0 +1,40 @@
+#vincss-secure {
+  display: flex !important;
+  width: 100% !important;
+  justify-content: center;
+}
+#vincss-secure span {
+  line-height: 30px;
+}
+#pwl_login {
+  display: none !important;
+}
+.pwl-title {
+  font-size: 18px;
+  text-align: center;
+  height: auto !important;
+  line-height: 18px !important;
+  opacity: 0.8;
+  display: none;
+  pointer-events: none;
+}
+.pwl-title span {
+  line-height: unset;
+}
+.pwl-title .vincss-secure-success {
+  color: #2c8d46;
+}
+.pwl-title .vincss-secure-failed {
+  color: #ca4a1f;
+}
+
+@media (max-width: 782px) {
+  #vincss-secure span {
+    line-height: 38px;
+  }
+}
+
+/* .btn_login button {
+  width: 100%;
+  float: none !important;
+} */

@@ -1,0 +1,461 @@
+.wp-list-table tr:not(.inline-edit-row):not(.no-items) td:not(.check-column) {
+  display: table-cell;
+}
+#v-pwl-show-progress .vincss-secure-success,
+#vincss-secure-show-test .vincss-secure-success,
+#vincss-secure-show-test-usernameless .vincss-secure-success {
+  color: #2c8d46;
+}
+#v-pwl-show-progress .vincss-secure-failed,
+#vincss-secure-show-test .vincss-secure-failed,
+#vincss-secure-show-test-usernameless .vincss-secure-failed {
+  color: #ca4a1f;
+}
+#v-pwl-show-progress,
+#vincss-secure-show-test,
+#vincss-secure-show-test-usernameless {
+  vertical-align: sub;
+}
+#vincss_fido2_login_log {
+  max-width: 100%;
+  font-family: Consolas, "Source Code Pro", "Liberation Mono", "Courier New",
+    Courier, "Noto Sans", "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial,
+    "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC",
+    "Source Han Sans SC", "Source Han Sans CN", "Microsoft YaHei", monospace;
+  white-space: pre;
+}
+#clear_log {
+  margin-top: 3px;
+}
+.vincss-secure-table {
+  overflow-x: auto;
+}
+.vincss-secure-table table {
+  min-width: 650px;
+}
+.vincss-secure-table td a:nth-child(2) {
+  color: #a00;
+}
+.username-less-th,
+.username-less-td {
+  display: none;
+}
+#v-pwl-reg-new-btn,
+#vincss-secure-verify-btn,
+#vincss-secure-test {
+  margin-top: 10px;
+}
+#vincss-secure-show-test {
+  margin-top: 15px;
+  display: inline-block;
+}
+#vincss-secure-new-block,
+#vincss-secure-verify-block {
+  display: none;
+  padding: 0 20px 20px;
+  border: 1px solid #ccd0d4;
+  margin-top: 15px;
+  border-radius: 3px;
+  background-color: #ececec;
+}
+.vincss-secure-cancel {
+  margin-top: 20px !important;
+  float: right;
+}
+
+/* .wp-menu-image img {
+  padding-top: 2px !important;
+  opacity: 1 !important;
+} */
+
+#des_passwordless_only {
+  display: none;
+}
+#vincss_form_oauth2 {
+  margin-top: 16px;
+}
+#vincss_form_oauth2 th {
+  font-weight: 400 !important;
+}
+#vincss_form_oauth2 td {
+  padding: 4px 0;
+}
+#vincss_form_oauth2 td input[type="text"],
+#vincss_form_oauth2 td input[type="password"] {
+  width: 100%;
+}
+#vincss_form_oauth2 td select {
+  margin-left: 12px;
+}
+#vincss_form_oauth2 h4 {
+  margin-bottom: 4px;
+}
+
+#vincss_form_oauth2 .required {
+  color: red;
+}
+
+.fz-12 {
+  font-size: 12px !important;
+}
+.message_error {
+  font-size: 13px !important;
+  text-align: center !important;
+}
+.oauth2_info table {
+  padding-left: 16px;
+}
+
+.vcss_notice .notice {
+  margin-left: 0 !important;
+}
+
+.modal-2fa .input_otp {
+  width: 100%;
+  height: 35px;
+  border-radius: 2px;
+  background-color: #e9f2f5;
+  border: none;
+  outline: none;
+  padding: 8px;
+}
+.v_list_code_recovery ul li {
+  font-size: 14px;
+}
+
+.qr_code {
+  width: 240px;
+}
+
+.account-well {
+  padding: 0 8px;
+  border: 1px solid #dbdbdb;
+  border-radius: 0.25rem;
+}
+
+.btn_loading {
+  position: relative;
+  top: 2px;
+}
+
+#setup_2fa_loading,
+#remove_2fa_loading {
+  display: none;
+}
+.button-danger {
+  background-color: #b32d2e !important;
+  border-color: #b32d2e !important;
+  color: #fff !important;
+}
+
+.form_2fa th {
+  width: 165px !important;
+}
+
+.form_oauth2_setting th {
+  width: 150px !important;
+}
+#role_enforce_2fa_list {
+  display: none;
+}
+
+.oauth2-col-left {
+  width: calc(70% - 24px);
+  margin-right: 24px;
+  box-sizing: border-box;
+}
+.oauth2-col-right {
+  width: 30%;
+  box-sizing: border-box;
+}
+
+.fido2_cloud_img {
+  width: 100px;
+}
+.box {
+  box-sizing: border-box;
+
+  padding: 24px;
+  color: #8c8f94;
+  background-color: #0b293c;
+  /* border: 1px solid #dcdcde; */
+  box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+  font-size: 14px;
+}
+.box a {
+  text-decoration: none;
+  color: #fff;
+}
+#loading_recovery_code,
+.v_list_code_recovery {
+  display: none;
+}
+
+.v_oauth2_mapping_field {
+  width: 120px !important;
+}
+
+.v_oauth2_wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#other_login_helper {
+  margin-top: 8px;
+  float: none;
+  cursor: pointer;
+}
+
+form[name="validate_2fa_form"] .v_oauth2_wrapper {
+  display: none;
+}
+#toplevel_page_fido2-login .wp-menu-image {
+  position: relative;
+  top: -5px;
+}
+
+#v_env_success,
+#v_error_list {
+  display: none;
+}
+.text-error {
+  color: #d63638;
+}
+#v_error_list {
+  border-left: 4px solid #d63638;
+  padding: 12px;
+  margin-left: 0;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+#v_loading_env_check {
+  display: none;
+}
+
+.v_container {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.v_container a:focus {
+  text-decoration: none !important;
+  box-shadow: none !important;
+}
+.loading {
+  display: none !important;
+}
+
+.icon_menu {
+  margin-right: 6px;
+  width: 28px;
+}
+
+.v-link {
+  text-decoration: none;
+}
+
+.vincss_oauth_notice {
+  font-size: 12px;
+  color: red;
+  text-align: center;
+}
+
+.other-login {
+  margin-top: 24px !important;
+  width: 100%;
+  text-align: center;
+}
+
+.other-login a {
+  font-size: 14px !important;
+  cursor: pointer;
+  text-align: center;
+  transition: ease-in-out all 0.3s;
+}
+.other-login a:hover {
+  color: #ca4a1f;
+}
+.login_separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #979797;
+  font-weight: 500;
+}
+
+.login_separator::before,
+.login_separator::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #c4c2c2;
+}
+
+.login_separator:not(:empty)::before {
+  margin-right: 0.25em;
+}
+
+.login_separator:not(:empty)::after {
+  margin-left: 0.25em;
+}
+
+.btn_login {
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+}
+.thirdparty_login {
+  display: none;
+}
+.toggle-switch {
+  --width: 45px;
+  --height: 22px;
+  position: relative;
+  width: var(--width);
+  height: var(--height);
+  cursor: pointer;
+}
+.toggle-switch input {
+  position: relative;
+  z-index: 1;
+  display: none !important;
+}
+.toggle-switch span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #707070;
+  border-radius: var(--height);
+  transition: 0.5;
+  box-shadow: 0 3px 8px #57575766;
+}
+.toggle-switch input:checked ~ span {
+  background: #2271b1;
+  box-shadow: 0 3px 8px #2271b166;
+}
+.toggle-switch span i {
+  position: absolute;
+  width: calc(var(--height) - 8px);
+  aspect-ratio: 1;
+  background: #fff;
+  border-radius: 50%;
+  left: 4px;
+  top: 4px;
+}
+.toggle-switch span i:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 10px;
+  transition: 0.5s;
+  padding: 4px;
+}
+.toggle-switch input:checked ~ span i {
+  left: calc((var(--width) - var(--height)) + 4px);
+}
+.toggle-switch input:checked ~ span i:before {
+  content: "";
+  color: #2271b1;
+}
+
+.v-checkbox {
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+}
+.v-checkbox:hover .v-checkbox-checkmark {
+  border: 2px solid #2271b1;
+}
+
+.v-checkbox-input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.v-checkbox-input:focus ~ .v-checkbox-checkmark-box {
+  border-color: #2271b1;
+}
+.v-checkbox-input:checked
+  ~ .v-checkbox-checkmark-box
+  .v-checkbox-checkmark:after {
+  display: block;
+}
+.v-checkbox-input:checked ~ .v-checkbox-checkmark-box .v-checkbox-checkmark {
+  background-color: #2271b1;
+  border: 2px solid #2271b1;
+}
+.v-checkbox-input:disabled ~ .v-checkbox-checkmark-box .v-checkbox-checkmark {
+  border: 2px solid #b0b0b0;
+  cursor: not-allowed;
+}
+.v-checkbox-input:disabled:checked
+  ~ .v-checkbox-checkmark-box
+  .v-checkbox-checkmark {
+  background-color: #b0b0b0;
+}
+.v-checkbox-input:disabled:checked
+  ~ .v-checkbox-checkmark-box
+  .v-checkbox-checkmark:after {
+  background: url("data:image/svg+xml,%3Csvg width='14' height='10' viewBox='0 0 14 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4.8866 9.91722L0.0873348 5.36761C0.0596566 5.34137 0.037692 5.31018 0.0227039 5.27582C0.00771585 5.24146 0 5.20461 0 5.1674C0 5.13019 0.00771585 5.09335 0.0227039 5.05899C0.037692 5.02463 0.0596566 4.99343 0.0873348 4.96719L1.29893 3.81086C1.41471 3.70049 1.60183 3.70049 1.71761 3.81086L4.87718 6.80501C4.99296 6.91538 5.18143 6.91409 5.2972 6.80372L12.2787 0.0839022C12.3945 -0.0277526 12.5829 -0.0277526 12.7001 0.0826188L13.913 1.23895C14.0288 1.34932 14.0288 1.52771 13.9143 1.63809L6.30821 8.95468L6.30956 8.95597L5.30662 9.91722C5.19085 10.0276 5.00238 10.0276 4.8866 9.91722Z' fill='%2374767B'/%3E%3C/svg%3E%0A")
+    no-repeat center;
+  background-size: contain;
+}
+
+.v-checkbox-checkmark-box {
+  min-width: 20px;
+  max-width: 20px;
+  min-height: 20px;
+  max-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid transparent;
+  border-radius: 4px;
+}
+
+.v-checkbox-checkmark {
+  min-width: 20px;
+  max-width: 20px;
+  min-height: 20px;
+  max-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1.5px solid #58a55a;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.v-checkbox-checkmark:after {
+  content: "";
+  display: none;
+  background: url("data:image/svg+xml,%3Csvg width='14' height='10' viewBox='0 0 14 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4.8866 9.91722L0.0873348 5.36761C0.0596566 5.34137 0.037692 5.31018 0.0227039 5.27582C0.00771585 5.24146 0 5.20461 0 5.1674C0 5.13019 0.00771585 5.09335 0.0227039 5.05899C0.037692 5.02463 0.0596566 4.99343 0.0873348 4.96719L1.29893 3.81086C1.41471 3.70049 1.60183 3.70049 1.71761 3.81086L4.87718 6.80501C4.99296 6.91538 5.18143 6.91409 5.2972 6.80372L12.2787 0.0839022C12.3945 -0.0277526 12.5829 -0.0277526 12.7001 0.0826188L13.913 1.23895C14.0288 1.34932 14.0288 1.52771 13.9143 1.63809L6.30821 8.95468L6.30956 8.95597L5.30662 9.91722C5.19085 10.0276 5.00238 10.0276 4.8866 9.91722Z' fill='white'/%3E%3C/svg%3E%0A")
+    no-repeat center;
+  width: 24px;
+  height: 20px;
+  background-size: contain;
+}
+
+.v-text-primary {
+  color: #2271b1 !important;
+}
+
+label {
+  display: inline-block;
+}
+
+#vincss-fido2-login {
+  text-align: center;
+}
